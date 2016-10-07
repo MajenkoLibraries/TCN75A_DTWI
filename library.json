@@ -1,0 +1,22 @@
+{
+  "name": "TCN75A_DTWI",
+  "keywords": "i2c, temperature, dtwi",
+  "description": "chipKIT Library for the TCN75A temperature sensor on the BasicIO shield using DTWI for communication",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/MajenkoLibraries/TCN75A_DTWI"
+  },
+  "authors":
+  [
+    {
+      "name": "Majenko Technologies",
+      "email": "matt@majenko.co.uk",
+      "url": "http://www.majenko.co.uk",
+      "maintainer": true
+    }
+  ],
+  "version": "1.0.1",
+  "frameworks": "arduino",
+  "platforms": "microchippic32"
+}
