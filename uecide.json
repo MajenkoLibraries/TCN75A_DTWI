@@ -7,12 +7,16 @@
     "category": "Sensors",
     "subcategory": "Environmental",
     "maintainer": "Matt Jenkins <matt@majenko.co.uk>",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "family": "pic32",
     "core": "chipkit",
     "install": {
         "examples": "/",
         "TCN75A_DTWI.cpp": "/",
         "TCN75A_DTWI.h": "/"
-    }
+    },
+    "depends": [
+        "chipkit", 
+        "libdtwi-chipkit"
+    ]
 }
